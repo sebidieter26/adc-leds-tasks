@@ -12,7 +12,7 @@ The switch between modes is realised using an external interrupt actioned by a p
 
 
 ---
-- 1st task suspends task 4 that is responsible or the "manual mode" and aquires values using an ADC from the first potentiometer. The values are placed in 2 queues that are sent to second and third tasks
+- 1st task suspends task 4 that is responsible or the MANUAL MODE and aquires values using an ADC from the first potentiometer. The values are placed in 2 queues that are sent to second and third tasks
 - 2nd task gets adc values using one of the queues created in the first task and then compares it with some given values. Based on these values it turns 1,2 or 3 leds
 - 3rd task aquires ADC values using the second queue and prints them on serial port
 - 4th task is basically the whole MANUAL MODE. Here the first 3 tasks are suspended and then task 4 aquires ADC values and based on these values turns on 1,2 or 3 leds just like the second task. When switched in MANUAL MODE, the 4th task prints "mod manual" on the serial port.
