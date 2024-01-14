@@ -1,6 +1,6 @@
 Operating Systems in Automation Project
 =
-This is one of my university projects that was meant to help us understand ADC and working with tasks better.                        
+This university project was meant to help us learn about tasks and get a better grasp of ADC (Analog-to-Digital Converter).                      
 
 In this project I have used freeRTOS to create and control 4 tasks that are getting values from 2 potentiometers. 
 
