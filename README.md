@@ -4,7 +4,7 @@ This university project was meant to help us learn about tasks and get a better 
 
 In this project I have used freeRTOS to create and control 4 tasks that are getting values from 2 potentiometers. 
 
-One potentiometer is responsible for and AUTOMATIC MODE and the other is responsible for a MANUAL MODE.
+One potentiometer is responsible for an AUTOMATIC MODE and the other is responsible for a MANUAL MODE.
 
 In both modes the ADC aquires values from one of the potentiometers, based on the mode chose and then turns on 1,2 or 3 leds if the values aquired are positioned between given values.
 
